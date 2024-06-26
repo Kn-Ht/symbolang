@@ -29,7 +29,7 @@ let main() {
     // For
     let x = 25;
     for i: (0..x) {
-        println!("{}", i);
+        println("{}", i);
     }
     // While
     let some_var = 10;
@@ -40,7 +40,7 @@ let main() {
     // For Each
     let numbers = [10, 20, 30, 40];
     for number: numbers {
-        println!("Number: {}", number);
+        println("Number: {}", number);
     }
 }
 ```
